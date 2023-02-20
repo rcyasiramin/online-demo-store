@@ -1,0 +1,17 @@
+name: restartServer
+on: [push]
+jobs:
+ check-bats-version:
+   runs-on: ubuntu-latest
+   steps:
+      
+     - name: Sleep for 120 seconds
+       uses: jakejarvis/wait-action@master
+       with:
+        time: '120s'
+  
+     - name: Deploy Stage
+       uses: fjogeleit/http-request-action@v1
+       with:
+        url: 'https://api.gotestpro.com:8443/rcteaf-api/api/external/cicd/execute/job/1532363'
+        method: 'GET'
