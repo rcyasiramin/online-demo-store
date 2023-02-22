@@ -13,5 +13,5 @@ jobs:
      - name: Deploy Stage
        uses: fjogeleit/http-request-action@v1
        with:
-        url: 'http://dev-gtp.royalcyber.org:8081/rcteaf-api/api/external/cicd/execute/job/460761'
+        url: 'http://dev-gtp.royalcyber.org:8081/rcteaf-api/api/external/cicd/execute/job/465873'
         method: 'GET'
