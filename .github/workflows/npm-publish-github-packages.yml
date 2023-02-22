@@ -5,10 +5,10 @@ jobs:
    runs-on: ubuntu-latest
    steps:
       
-     - name: Sleep for 120 seconds
+     - name: Sleep for 100 seconds
        uses: jakejarvis/wait-action@master
        with:
-        time: '120s'
+        time: '100s'
   
      - name: Deploy Stage
        uses: fjogeleit/http-request-action@v1
