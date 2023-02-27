@@ -76,7 +76,7 @@ export const USERS: IUser[] = [
     email: 'yasir.amin@royalcyber.com',
     phone: '+63 791 675 8914',
     username: 'atuny0',
-    password: 'Cyber20',
+    password: 'Cyber2023',
     birthDate: '2000-12-25',
     image: 'https://robohash.org/hicveldicta.png',
     bloodGroup: 'A-',
