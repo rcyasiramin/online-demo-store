@@ -141,7 +141,7 @@ export const USERS: IUser[] = [
     email: 'test@royalcyber.com',
     phone: '+63 791 675 8914',
     username: 'test',
-    password: 'Cyber2023',
+    password: 'test123',
     birthDate: '2000-12-25',
     image: 'https://robohash.org/hicveldicta.png',
     bloodGroup: 'A-',
