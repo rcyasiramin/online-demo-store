@@ -7,17 +7,17 @@
         width="60"
         height="60"
       />
-      <span>Demo Store</span>
+      <span>RC Demo Store</span>
     </div>
 
     <div class="fields">
-      <mat-form-field id="username-field">
+      <mat-form-field id="email-field">
         <mat-label>Email</mat-label>
         <input
           type="email"
           matInput
           formControlName="email"
-          placeholder="Please Enter your email"
+          placeholder="Enter your email"
         />
         <mat-error
           *ngIf="
@@ -39,7 +39,6 @@
           matInput
           formControlName="password"
           placeholder="Enter your password"
-          maxlength="20"
         />
         <button
           matSuffix
